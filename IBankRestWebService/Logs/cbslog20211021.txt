@@ -1,0 +1,34 @@
+2021-10-21 14:50:16.044 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-21 14:50:16.125 -07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44374/swagger/index.html  
+2021-10-21 14:50:16.164 -07:00 [INF] Hosting environment: Development
+2021-10-21 14:50:16.167 -07:00 [INF] Content root path: C:\Project\IeTechPractice\IBankRestWebService\IBankRestWebService
+2021-10-21 14:50:16.365 -07:00 [INF] Request finished in 253.6953ms 200 text/html;charset=utf-8
+2021-10-21 14:50:16.651 -07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44374/swagger/v1/swagger.json  
+2021-10-21 14:50:16.856 -07:00 [INF] Request finished in 206.1149ms 200 application/json;charset=utf-8
+2021-10-21 14:51:00.821 -07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44374/api/WebRestService/StartOfDay application/json 143
+2021-10-21 14:51:00.842 -07:00 [INF] Executing endpoint 'IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService)'
+2021-10-21 14:51:00.924 -07:00 [INF] Route matched with {action = "StartOfDay", controller = "WebRestService"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartOfDay(IBankRestWebService.ViewModel.ApplicationsDbConnection) on controller IBankRestWebService.Controllers.WebRestService (IBankRestWebService).
+2021-10-21 14:51:00.967 -07:00 [INF] geting start of banking day
+2021-10-21 14:51:06.143 -07:00 [INF] Before Execution
+2021-10-21 14:51:07.022 -07:00 [INF] After Execution Successful
+2021-10-21 14:51:08.059 -07:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-10-21 14:51:08.074 -07:00 [INF] Executed action IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService) in 7139.1624ms
+2021-10-21 14:51:08.079 -07:00 [INF] Executed endpoint 'IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService)'
+2021-10-21 14:51:08.079 -07:00 [INF] Request finished in 7263.4533ms 200 text/plain; charset=utf-8
+2021-10-21 14:54:40.232 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-21 14:54:40.309 -07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44374/swagger/index.html  
+2021-10-21 14:54:40.351 -07:00 [INF] Hosting environment: Development
+2021-10-21 14:54:40.351 -07:00 [INF] Content root path: C:\Project\IeTechPractice\IBankRestWebService\IBankRestWebService
+2021-10-21 14:54:40.539 -07:00 [INF] Request finished in 241.5204ms 200 text/html;charset=utf-8
+2021-10-21 14:54:40.839 -07:00 [INF] Request starting HTTP/2.0 GET https://localhost:44374/swagger/v1/swagger.json  
+2021-10-21 14:54:41.122 -07:00 [INF] Request finished in 283.886ms 200 application/json;charset=utf-8
+2021-10-21 14:55:01.654 -07:00 [INF] Request starting HTTP/2.0 POST https://localhost:44374/api/WebRestService/StartOfDay application/json 143
+2021-10-21 14:55:01.680 -07:00 [INF] Executing endpoint 'IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService)'
+2021-10-21 14:55:01.749 -07:00 [INF] Route matched with {action = "StartOfDay", controller = "WebRestService"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StartOfDay(IBankRestWebService.ViewModel.ApplicationsDbConnection) on controller IBankRestWebService.Controllers.WebRestService (IBankRestWebService).
+2021-10-21 14:55:01.802 -07:00 [WRN] geting start of banking day
+2021-10-21 14:55:13.456 -07:00 [WRN] Before Execution
+2021-10-21 14:55:14.867 -07:00 [WRN] After Execution Successful
+2021-10-21 14:55:15.865 -07:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-10-21 14:55:15.879 -07:00 [INF] Executed action IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService) in 14118.5569ms
+2021-10-21 14:55:15.883 -07:00 [INF] Executed endpoint 'IBankRestWebService.Controllers.WebRestService.StartOfDay (IBankRestWebService)'
+2021-10-21 14:55:15.884 -07:00 [INF] Request finished in 14241.2221ms 200 text/plain; charset=utf-8
